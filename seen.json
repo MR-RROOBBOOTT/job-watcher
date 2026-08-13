@@ -24,9 +24,16 @@
   "Datadog:8092973",
   "Fastly:7738594",
   "Fastly:8011032",
+  "Netcracker:7521042",
   "Netskope:8037194",
   "Netskope:8080431",
   "Netskope:8088811",
+  "SolarWinds:4611678005",
+  "SolarWinds:4704232005",
+  "SolarWinds:4706842005",
+  "SolarWinds:4723438005",
   "Twilio:7657993",
-  "Twilio:8108771"
+  "Twilio:8108771",
+  "Verkada:5146680007",
+  "Vonage:8325487002"
 ]
