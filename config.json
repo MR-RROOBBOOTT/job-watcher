@@ -1,22 +1,72 @@
 {
-  "_comment": "Config for the job watcher. Add/remove companies and tune keywords here — no code changes needed.",
-
+  "_comment": "Config for the job watcher. Add/remove companies and tune keywords here \u2014 no code changes needed.",
   "companies": [
-    { "name": "Cloudflare",  "board": "greenhouse", "slug": "cloudflare" },
-    { "name": "Twilio",      "board": "greenhouse", "slug": "twilio" },
-    { "name": "Fastly",      "board": "greenhouse", "slug": "fastly" },
-    { "name": "Datadog",     "board": "greenhouse", "slug": "datadog" },
-    { "name": "Netskope",    "board": "greenhouse", "slug": "netskope" },
-    { "name": "Zscaler",     "board": "greenhouse", "slug": "zscaler" },
-    { "name": "SolarWinds",  "board": "greenhouse", "slug": "solarwinds" },
-    { "name": "Kentik",      "board": "greenhouse", "slug": "kentik" },
-    { "name": "Samsara",     "board": "greenhouse", "slug": "samsara" },
-    { "name": "Verkada",     "board": "greenhouse", "slug": "verkada" },
-    { "name": "Netcracker",  "board": "greenhouse", "slug": "netcracker" },
-    { "name": "PagerDuty",   "board": "greenhouse", "slug": "pagerduty" },
-    { "name": "Vonage",      "board": "greenhouse", "slug": "vonage" }
+    {
+      "name": "Cloudflare",
+      "board": "greenhouse",
+      "slug": "cloudflare"
+    },
+    {
+      "name": "Twilio",
+      "board": "greenhouse",
+      "slug": "twilio"
+    },
+    {
+      "name": "Fastly",
+      "board": "greenhouse",
+      "slug": "fastly"
+    },
+    {
+      "name": "Datadog",
+      "board": "greenhouse",
+      "slug": "datadog"
+    },
+    {
+      "name": "Netskope",
+      "board": "greenhouse",
+      "slug": "netskope"
+    },
+    {
+      "name": "Zscaler",
+      "board": "greenhouse",
+      "slug": "zscaler"
+    },
+    {
+      "name": "SolarWinds",
+      "board": "greenhouse",
+      "slug": "solarwinds"
+    },
+    {
+      "name": "Kentik",
+      "board": "greenhouse",
+      "slug": "kentik"
+    },
+    {
+      "name": "Samsara",
+      "board": "greenhouse",
+      "slug": "samsara"
+    },
+    {
+      "name": "Verkada",
+      "board": "greenhouse",
+      "slug": "verkada"
+    },
+    {
+      "name": "Netcracker",
+      "board": "greenhouse",
+      "slug": "netcracker"
+    },
+    {
+      "name": "PagerDuty",
+      "board": "greenhouse",
+      "slug": "pagerduty"
+    },
+    {
+      "name": "Vonage",
+      "board": "greenhouse",
+      "slug": "vonage"
+    }
   ],
-
   "include_keywords": [
     "network engineer",
     "network operations",
@@ -30,15 +80,18 @@
     "noc analyst",
     "telecom",
     "telecommunications",
-    "systems engineer",
     "infrastructure engineer",
     "monitoring engineer",
     "aiops",
     "site reliability engineer",
     "linux administrator",
-    "devops engineer"
+    "devops engineer",
+    "it systems engineer",
+    "network systems engineer",
+    "network administrator",
+    "network analyst",
+    "network architect"
   ],
-
   "exclude_keywords": [
     "staff",
     "principal",
@@ -56,7 +109,6 @@
     "product manager",
     "distributed systems"
   ],
-
   "notify_on_first_run": true,
-  "max_notifications_per_run": 15
+  "max_notifications_per_run": 25
 }
